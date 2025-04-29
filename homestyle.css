@@ -4,7 +4,7 @@
     text-decoration: none;
     font-family: "Poppins" , sans-serif;
     /* overflow: hidden; */
-     overflow: none;  /* With This Enabled You Can Scroll The Site. */
+     overflow: none;/*   With This Enabled You Can Scroll The Site. */
     scroll-behavior: smooth;
 }
 :root{
@@ -168,7 +168,7 @@ border-radius: 50%;
 }
 /* contact styling starts from here */
 .contact{
-  min-height: 100vh;
+  min-height: 90vh;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -231,4 +231,10 @@ border-radius: 50%;
   
   .contact-form button:hover {
     background-color: #0056b3;
+  }
+  footer{
+    background-color: var(--background-color-contact);
+  }
+  footer .copyright{
+    text-align: center;
   }
